@@ -1,0 +1,29 @@
+.navigation {
+    border-radius: 0 1rem 1rem 0;
+    background-color: #fff;
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    overflow: hidden;
+    transition: all .3s;
+    h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: .5rem;
+        margin: .5rem;
+        height: 0;
+        overflow: hidden;
+        transition: all .3s;
+    }
+    &:hover {
+        h2 {
+            height: 2rem;
+        }
+    }
+}
+
+.logo {
+    width: 8rem;
+    flex-shrink: 1;
+    vertical-align: middle;
+}
